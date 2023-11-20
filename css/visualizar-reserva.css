@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #151515;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.navbar-brand{
+    width: 70px;
+}
+
+.nav-link-style{
+    color: white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.nav-link-style:hover{
+    background-color: greenyellow;
+    color: white;
+}
